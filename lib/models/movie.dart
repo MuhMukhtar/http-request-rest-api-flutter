@@ -1,11 +1,10 @@
-import 'package:flutter/material.dart';
-
 class Movie {
-  late int id;
-  late String title;
-  late double voteAverage;
-  late String overview;
-  late String posterPath;
+  int? id;
+  String? title;
+  double? voteAverage;
+  String? overview;
+  String? posterPath;
+
   Movie(this.id, this.title, this.voteAverage, this.overview, this.posterPath);
 
   Movie.fromJson(Map<String, dynamic> parsedJson) {

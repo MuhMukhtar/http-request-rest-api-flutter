@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mov/service/http_service.dart';
+import 'package:movie_catalog/service/http_service.dart';
 
 class Movielist extends StatefulWidget {
   @override
